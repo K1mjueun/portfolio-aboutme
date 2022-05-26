@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="subject" content="design">
+  <meta http-equiv="copyright" content="Kimjueun">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 
@@ -20,10 +22,16 @@
 
   <title>Kimjueun Portfolio</title>
 
+<link rel="stylesheet" href="/css/colors.css">
 <link rel="stylesheet" href="/css/style-basic-set.css">
 <link rel="stylesheet" href="/css/style-start-page-1.css">
 <link rel="stylesheet" href="/css/style-start-page-2.css">
 <!-- 스타일시트 -->
+
+<script src="/js/module/function.js" defer></script>
+<script src="/js/module/start-page-1.js" defer></script>
+<script src="/js/module/start-page-2.js" defer></script>
+<!-- 자바스크립트 -->
 
 </head>
 <body>
@@ -79,63 +87,5 @@
   </div>
     <!-- ↑ start page2 -->
 
-  <script>
-  // start page1
-  const startPage1 = document.querySelector("#start-1");
-  const myPhotoHide = document.querySelector(".my-photo-hide");
-  const arrowGray = document.querySelector(".arrow-gray");
-  const clickText = startPage1.children[4];
-  // console.log(clickText);
-
-  let photoMoving = [
-    { transform: 'rotate(-3deg)'},
-    { transform: 'rotate(3deg)'},
-    { transform: 'rotate(-3deg)'}
-  ];
-    let photoMovingTime = {
-      duration: 1500,
-      iterations: Infinity
-    };
-
-  window.addEventListener('load', function() {
-    let photoAnimate = setInterval(function(){  
-    myPhotoHide.animate(photoMoving, photoMovingTime);
-    },1500);
-  });
-
-  function mouseOverLeave(element,eventtarget) {
-    element.addEventListener('mouseover', function() {
-      eventtarget.style.display = "flex";
-    });
-    element.addEventListener('mouseleave', function() {
-      eventtarget.style.display = "none";
-    });
-  };
-
-  mouseOverLeave(myPhotoHide,arrowGray);
-  mouseOverLeave(myPhotoHide,clickText);
-  // start page1
-
-  // start page2
-  const startPage2 = document.querySelector('#start-2');
-  const myPhoto = document.querySelector("#start-2 > .my-photo");
-  const arrow1 = document.querySelector("#start-2 > .arrow-1");
-  const clickText2 = startPage2.children[4];
-
-  window.addEventListener('load', function() {
-    let photoAnimate = setInterval(function(){  
-    myPhoto.animate(photoMoving, photoMovingTime);
-    },1500);
-  });
-
-  myPhotoHide.addEventListener('click', function() {
-  startPage1.style.display = "none";
-  startPage2.style.display = "flex";
-  });
-
-  mouseOverLeave(myPhoto,arrow1);
-  mouseOverLeave(myPhoto,clickText2);
-
-  </script>
 </body>
 </html>
