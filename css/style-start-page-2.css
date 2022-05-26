@@ -77,8 +77,8 @@ justify-content: space-between;
 #start-2 > .portfolio-text > .portfolio > h1, #start-2 > .portfolio-text > .portfolio > h2 {
 font-size: 230px;
 font-family: 'Lilita One';
-color: rgba(255, 221, 189, 1);
--webkit-text-stroke: 1.5px rgba(255, 136, 26, 1);
+color: var(--color-orange-1);
+-webkit-text-stroke: 1.5px var(--color-orange-3);
 letter-spacing: -7px;
 }
 
@@ -100,7 +100,7 @@ right: 45%;
 #start-2 > h1 {
 font-size: 20px;
 font-weight: lighter;
-color: rgba(255, 162, 75, 1);
+color: var(--color-orange-2);
 position:absolute;
 
 bottom: 23%;

@@ -2,7 +2,7 @@
 #start-1 {
   width: 100vw;
   height: 100vh;
-  background-color: #ccc;
+  background-color: var(--color-gray-1);
 
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ justify-content: flex-end;
 #start-1 > .portfolio-text > h1, #start-1 > .portfolio-text > h2 {
 font-size: 30px;
 font-weight: lighter;
-color: #333;
+color: var(--color-gray-2);
 }
 
 #start-1 > .portfolio-text > .portfolio {
@@ -70,8 +70,8 @@ justify-content: space-between;
 #start-1 > .portfolio-text > .portfolio > h1, #start-1 > .portfolio-text > .portfolio > h2 {
 font-size: 230px;
 font-family: 'Lilita One';
-color: #ccc;
--webkit-text-stroke: 1.5px #333;
+color: var(--color-gray-1);
+-webkit-text-stroke: 1.5px var(--color-gray-2);
 letter-spacing: -7px;
 }
 
@@ -93,7 +93,7 @@ right: 45%;
 #start-1 > h1 {
 font-size: 20px;
 font-weight: lighter;
-color: #333;
+color: var(--color-gray-2);
 position:absolute;
 
 bottom: 23%;
