@@ -4,13 +4,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<!-- 폰트 -->
+
   <title>Document</title>
   <style>
+  *{margin:0; padding:0;}
+
+  #start {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+  }
+
+.portfolio-text {
+  width: 80%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: red 1px solid;
+}
+
+.portfolio-text > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: red 1px solid;
+}
+
+.portfolio > h1, .portfolio > h2 {
+  font-size: 230px;
+  font-family: 'Lilita One';
+  color: #ccc;
+  text-shadow:  -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+}
+
 
   </style>
 </head>
 <body>
-  <div id="display">
+  <div id="start">
 
     <!-- page1 -->
     <div class="my-photo-hide">
