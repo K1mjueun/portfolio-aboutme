@@ -7,8 +7,9 @@ const clickText2 = startPage2.children[4];
 shaking(myPhoto,photoMoving,photoMovingTime);
 
 myPhotoHide.addEventListener('click', function() {
-startPage1.style.display = "none";
-startPage2.style.display = "flex";
+  startPage1.style.display = "none";
+  startPage2.animate(displayAppear,displayChangeTime);
+startPage2.style.opacity = 1;
 });
 
 mouseOverLeave(myPhoto,arrow1);

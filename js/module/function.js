@@ -8,12 +8,14 @@ let photoMoving = [
     duration: 1500,
     iterations: Infinity
   };
+  //사진 흔들거리는 효과
 
   function shaking (eventtarget, animation, time) {
   setInterval(function(){  
   eventtarget.animate(animation, time);
   },1500);
   };
+  //사진 흔들거리는 효과
 
 function mouseOverLeave(element,eventtarget) {
   element.addEventListener('mouseover', function() {
@@ -23,3 +25,17 @@ function mouseOverLeave(element,eventtarget) {
     eventtarget.style.display = "none";
   });
 };
+//mouseover, mouseleave 했을 때 display 효과
+
+let displayAppear = [
+  {opacity: 0.8},
+  {opacity: 0.9},
+  {opacity: 1},
+];
+
+  let displayChangeTime = {
+    duration: 500,
+    iterations: 1
+  };
+  //화면 전환
+
