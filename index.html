@@ -8,13 +8,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <!-- 폰트 -->
 
-  <title>Document</title>
+  <title>Kimjueun Portfolio</title>
   <style>
-  *{margin:0; padding:0;}
+  *{margin:0; padding:0; font-family: 'Poppins';}
 
-  #start {
+  #start-1 {
     width: 100vw;
     height: 100vh;
     background-color: #ccc;
@@ -26,13 +30,39 @@
     flex-direction: column;
   }
 
+  #start-1 > .my-photo-hide {
+    width: 320px;
+    height: 400px;
+    background-image: url('/img/김주은-물음표.png');
+    background-size: cover;
+    position: absolute;
+    left: 40%;
+  }
+
+  #start-1 > .my-photo-hide:hover {
+    cursor: pointer;
+  }
+
+  #start-1 > .speech-bubble-gray {
+  width: 100px;
+  height: 100px;
+  background-image: url('/img/speech-bubble-gray.png');
+  background-size: cover;
+  position: absolute;
+  top: 23%;
+  right: 41%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
 .portfolio-text {
-  width: 80%;
+  width: 75%;
   height: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: red 1px solid;
 }
 
 .portfolio-text > h2 {
@@ -41,32 +71,58 @@
   justify-content: flex-end;
 }
 
+.portfolio-text > h1, .portfolio-text > h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #333;
+}
+
 .portfolio {
   width: 100%;
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: red 1px solid;
 }
 
 .portfolio > h1, .portfolio > h2 {
   font-size: 230px;
   font-family: 'Lilita One';
   color: #ccc;
-  text-shadow:  -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+  -webkit-text-stroke: 1.5px #333;
+  letter-spacing: -7px;
 }
 
+.arrow-gray {
+  width: 27px;
+  height: 50px;
+  background-image: url('/img/arrow-gray.png');
+  background-size: cover;
+  position: absolute;
+
+  bottom: 25%;
+  right: 45%;
+}
+
+#start-1 > h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #333;
+  position:absolute;
+
+  bottom: 23%;
+  right: 46%;
+}
 
   </style>
 </head>
 <body>
-  <div id="start">
+  <!-- start page1 -->
+  <div id="start-1">
 
-    <!-- page1 -->
     <div class="my-photo-hide">
     </div>
-    <div class="speech-bubble-hello">
+    <div class="speech-bubble-gray">
       Hello!
     </div>
 
@@ -79,11 +135,16 @@
       <h2>of Jueun Kim</h2>
     </div>
 
+    <div class="arrow-gray"></div>
+    <h1>click!</h1>
+
   </div>
   <!-- ↑ #display -->
 
   <script>
-
+  // start page1
+  const startPage1 = document.querySelector("#start-1");
+  const myPhotoHide = document.querySelector(".my-photo-hide");
   </script>
 </body>
 </html>
