@@ -9,6 +9,8 @@
   justify-content: center;
   position: relative;
   flex-direction: column;
+
+  opacity: 0;
 }
 
 #start-2 > .my-photo {
