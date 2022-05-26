@@ -12,12 +12,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
 <!-- 폰트 -->
 
   <title>Kimjueun Portfolio</title>
   <style>
   *{margin:0; padding:0; font-family: 'Poppins'; transition: 1s;}
 
+  /* start page1 */
   #start-1 {
     width: 100vw;
     height: 100vh;
@@ -57,7 +62,7 @@
   justify-content: center;
   }
 
-.portfolio-text {
+  #start-1 > .portfolio-text {
   width: 75%;
   height: 40%;
   display: flex;
@@ -65,19 +70,19 @@
   flex-direction: column;
 }
 
-.portfolio-text > h2 {
+#start-1 > .portfolio-text > h2 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
-.portfolio-text > h1, .portfolio-text > h2 {
+#start-1 > .portfolio-text > h1, #start-1 > .portfolio-text > h2 {
   font-size: 30px;
   font-weight: lighter;
   color: #333;
 }
 
-.portfolio {
+#start-1 > .portfolio-text > .portfolio {
   width: 100%;
   height: 50%;
   display: flex;
@@ -85,7 +90,7 @@
   justify-content: space-between;
 }
 
-.portfolio > h1, .portfolio > h2 {
+#start-1 > .portfolio-text > .portfolio > h1, #start-1 > .portfolio-text > .portfolio > h2 {
   font-size: 230px;
   font-family: 'Lilita One';
   color: #ccc;
@@ -93,11 +98,11 @@
   letter-spacing: -7px;
 }
 
-.arrow-gray, #start-1 > h1 {
+#start-1 > .arrow-gray, #start-1 > h1 {
   display: none;
 }
 
-.arrow-gray {
+#start-1 > .arrow-gray {
   width: 27px;
   height: 50px;
   background-image: url('/img/arrow-gray.png');
@@ -118,6 +123,118 @@
   right: 46%;
   transform: rotate(-10deg);
 }
+/* start page1 */
+
+
+/* start page2 */
+#start-2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 221, 189, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+  }
+
+  #start-2 > .my-photo {
+    width: 320px;
+    height: 400px;
+    background-image: url('/img/김주은-누끼.png');
+    background-size: cover;
+    position: absolute;
+    left: 40%;
+  }
+
+  #start-2 > .my-photo:hover {
+    cursor: pointer;
+  }
+
+  #start-2 > .speech-bubble {
+  width: 160px;
+  height: 160px;
+  background-image: url('/img/speech-bubble.png');
+  background-size: cover;
+  position: absolute;
+  top: 18%;
+  right: 38%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #start-2 > .speech-bubble > p {
+    font-family: 'Gamja Flower';
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+  }
+
+  #start-2 > .portfolio-text {
+  width: 75%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#start-2 > .portfolio-text > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#start-2 > .portfolio-text > h1, #start-2 > .portfolio-text > h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgba(255, 162, 75, 1);
+}
+
+#start-2 > .portfolio-text > .portfolio {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#start-2 > .portfolio-text > .portfolio > h1, #start-2 > .portfolio-text > .portfolio > h2 {
+  font-size: 230px;
+  font-family: 'Lilita One';
+  color: rgba(255, 221, 189, 1);
+  -webkit-text-stroke: 1.5px rgba(255, 136, 26, 1);
+  letter-spacing: -7px;
+}
+
+#start-2 > .arrow-1, #start-2 > h1 {
+  display: none;
+}
+
+#start-2 > .arrow-1 {
+  width: 27px;
+  height: 50px;
+  background-image: url("/img/arrow-1.png");
+  background-size: cover;
+  position: absolute;
+
+  bottom: 25%;
+  right: 45%;
+}
+
+#start-2 > h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 162, 75, 1);
+  position:absolute;
+
+  bottom: 23%;
+  right: 46%;
+  transform: rotate(-10deg);
+}
+/* start page2 */
 
   </style>
 </head>
@@ -144,7 +261,35 @@
     <h1>click!</h1>
 
   </div>
-  <!-- ↑ #display -->
+  <!-- ↑ start page1 -->
+
+  <!-- start page2 -->
+  <div id="start-2">
+
+    <div class="my-photo">
+    </div>
+    <div class="speech-bubble">
+      <p>
+        안녕하세요!<br>
+        웹디자이너<br>
+        김주은입니다
+      </p>
+    </div>
+
+    <div class="portfolio-text">
+      <h1>This is</h1>
+    <div class="portfolio">
+      <h1>PORT</h1>
+      <h2>FOLIO</h2>
+    </div>
+      <h2>of Jueun Kim</h2>
+    </div>
+
+    <div class="arrow-1"></div>
+    <h1>click!</h1>
+
+  </div>
+    <!-- ↑ start page2 -->
 
   <script>
   // start page1
@@ -155,9 +300,9 @@
   // console.log(clickText);
 
   let photoMoving = [
-    { transform: 'rotate(-5deg)'},
-    { transform: 'rotate(5deg)'},
-    { transform: 'rotate(-5deg)'}
+    { transform: 'rotate(-3deg)'},
+    { transform: 'rotate(3deg)'},
+    { transform: 'rotate(-3deg)'}
   ];
     let photoMovingTime = {
       duration: 1500,
@@ -181,6 +326,21 @@
 
   mouseOverLeave(myPhotoHide,arrowGray);
   mouseOverLeave(myPhotoHide,clickText);
+  // start page1
+
+  // start page2
+  const startPage2 = document.querySelector('#start-2');
+  const myPhoto = document.querySelector("#start-2 > .my-photo");
+  const arrow1 = document.querySelector("#start-2 > .arrow-1");
+  const clickText2 = startPage2.children[4];
+
+  myPhotoHide.addEventListener('click', function() {
+  startPage1.style.display = "none";
+  startPage2.style.display = "flex";
+  });
+
+  mouseOverLeave(myPhoto,arrow1);
+  mouseOverLeave(myPhoto,clickText2);
 
   </script>
 </body>
