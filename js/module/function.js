@@ -53,8 +53,8 @@ let displayAppear = [
   function mouseoverBigger (target, widthsize, heightsize) {
     target.addEventListener('mouseover', function() {
       target.style.zIndex = 6;
-      target.style.width = (widthsize+30)+"px";
-      target.style.height = (heightsize+30)+"px";
+      target.style.width = (widthsize+20)+"px";
+      target.style.height = (heightsize+20)+"px";
     });
   }
   //작업물 마우스오버하면 커지는 효과

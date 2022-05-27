@@ -39,6 +39,10 @@
 .speech-bubble-heart {
   width: 70px;
   height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-image: url('/img/speech-bubble.png');
   background-size: cover;
   position: absolute;
@@ -47,10 +51,50 @@
   left: 13%;
 }
 
+.introduce-paper {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+
+  position: absolute;
+  top: 7%;
+}
+
+.introduce-paper > h1 {
+  font-family: 'Gamja Flower';
+  color: var(--color-gray-2);
+  font-size: 50px;
+  font-weight: lighter;
+}
+
 .windie-memo, .bubbleroom-memo, .toyproject-memo {
   background-size: cover;
   position: absolute;
   z-index: 1;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.windie-memo > h1, .bubbleroom-memo > h1, .toyproject-memo > h1 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  color: var(--color-gray-2);
+}
+
+.windie-memo > h1 {
+  padding-bottom: 5%;
+}
+.bubbleroom-memo > h1 {
+  padding-bottom: 12%;
+  padding-right: 5%;
+}
+.toyproject-memo > h1 {
+  padding-bottom: 9%;
 }
 
 .windie-memo, .bubbleroom-memo, .toyproject-memo:hover {
@@ -72,6 +116,7 @@
   background-image: url('/img/버블룸-메모지-그림자제거.png');
 
   right: 36%;
+  bottom:15%;
 }
 
 .toyproject-memo {
@@ -100,7 +145,7 @@ position: absolute;
   width: 340px;
   height: 370px;
   left:41.15%;
-  bottom:29%;
+  bottom:18%;
 }
 
 .shadow-3 {
