@@ -24,3 +24,25 @@
 
   box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.1);
 }
+
+.my-photo-mini {
+  width: 220px;
+  height: 260px;
+  background-image: url('/img/김주은-누끼.png');
+  background-size: cover;
+  position: absolute;
+
+  top:-2%;
+  left: 2%;
+}
+
+.speech-bubble-heart {
+  width: 70px;
+  height: 70px;
+  background-image: url('/img/speech-bubble.png');
+  background-size: cover;
+  position: absolute;
+  
+  top:-2%;
+  left: 13%;
+}
