@@ -36,7 +36,30 @@
   left: 2%;
 }
 
-.speech-bubble-heart {
+.my-photo-mini > section:nth-child(1) {
+  width: 85px;
+  height: 35px;
+  background-image: url('/img/sunglasses.png');
+  background-size: cover;
+  position: absolute;
+
+  right: 25%;
+  top:22%;
+  transform:rotate(30deg);
+}
+
+.my-photo-mini > section:nth-child(2) {
+  width: 33.5px;
+  height: 50px;
+  background-image: url('/img/blingbling.png');
+  background-size: cover;
+  position: absolute;
+
+  left: 30%;
+  top: 3%;
+} 
+
+.speech-bubble-emoji {
   width: 70px;
   height: 70px;
   display: flex;
@@ -49,6 +72,15 @@
   
   top:-2%;
   left: 13%;
+}
+
+.speech-bubble-emoji > section {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-image: url(/img/emoji-sunglasses.png);
+  background-size: cover;
+  margin-bottom: 5%;
 }
 
 .introduce-paper {
