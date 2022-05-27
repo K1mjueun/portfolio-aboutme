@@ -1,0 +1,26 @@
+/* main page 1 */
+#main-page-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+#orange-board {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  background-image: url('/img/종이-이미지-수정.png');
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.1);
+}
