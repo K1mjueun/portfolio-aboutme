@@ -12,6 +12,8 @@ const windieMemo = document.querySelector(".windie-memo");
 const bubbleroomMemo = document.querySelector(".bubbleroom-memo");
 const toypjMemo = document.querySelector(".toyproject-memo");
 
+const bling = document.querySelector('.my-photo-mini > section:nth-child(2)');
+
 let windieMemoWidth = 350;
 let windieMemoHeight = 400;
 
@@ -28,3 +30,21 @@ mouseleaveSmaller(windieMemo, windieMemoWidth, windieMemoHeight);
 mouseleaveSmaller(bubbleroomMemo, bubbleroomMemoWidth, bubbleroomMemoHeight);mouseleaveSmaller(toypjMemo,toypjMemoWidth, toypjMemoHeight);
 
 
+let blingBingle = [
+  {transform : 'rotate(0deg)'},
+  {transform : 'rotate(360deg)'}
+];
+
+  let blingBingleTime = {
+    duration:1500,
+    iterations:1
+  };
+
+if(mainPage1.style.display = 'flex') {
+  bling.style.display = "flex";
+  if(bling.style.display = "flex") {
+    setTimeout(function() {
+      bling.animate(blingBingle,blingBingleTime);
+    },1000);
+  };
+};
