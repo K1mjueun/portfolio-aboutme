@@ -45,6 +45,6 @@ if(mainPage1.style.display = 'flex') {
   if(bling.style.display = "flex") {
     setTimeout(function() {
       bling.animate(blingBingle,blingBingleTime);
-    },1000);
+    },1500);
   };
 };
