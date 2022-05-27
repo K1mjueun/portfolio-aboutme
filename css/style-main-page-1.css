@@ -50,6 +50,7 @@
 .windie-memo, .bubbleroom-memo, .toyproject-memo {
   background-size: cover;
   position: absolute;
+  z-index: 1;
 }
 
 .windie-memo {
@@ -57,21 +58,50 @@
   height: 400px;
   background-image: url('/img/윈디-메모지-그림자제거.png');
 
-  left:10%;
+  left:12%;
+  bottom:25%;
 }
 
 .bubbleroom-memo {
   width: 400px;
   height: 410px;
   background-image: url('/img/버블룸-메모지-그림자제거.png');
+
+  right: 36%;
 }
 
 .toyproject-memo {
-  width: 320px;
-  height: 480px;
+  width: 300px;
+  height: 450px;
   background-image: url('/img/토이프로젝트-폴라로이드-그림자제거.png');
 
-  right:10%;
+  right:12%;
 }
 
-/* 그림자 만들어주기! */
+.shadow-1, .shadow-2, .shadow-3 {
+/* 그림자 */
+background-color: var(--color-gray-2);
+opacity: 0.1;
+position: absolute;
+}
+
+.shadow-1 {
+  width: 340px;
+  height: 290px;
+  left:11.7%;
+  bottom:24.4%;
+}
+
+.shadow-2 {
+  width: 340px;
+  height: 370px;
+  left:41.15%;
+  bottom:29%;
+}
+
+.shadow-3 {
+  width: 295px;
+  height: 400px;
+  right:12.3%;
+  bottom:23%;
+}
