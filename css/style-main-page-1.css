@@ -56,18 +56,22 @@
   width: 350px;
   height: 400px;
   background-image: url('/img/윈디-메모지-그림자제거.png');
+
+  left:10%;
 }
 
 .bubbleroom-memo {
-  width: 350px;
-  height: 360px;
+  width: 400px;
+  height: 410px;
   background-image: url('/img/버블룸-메모지-그림자제거.png');
 }
 
 .toyproject-memo {
-  width: 350px;
-  height: 525px;
+  width: 320px;
+  height: 480px;
   background-image: url('/img/토이프로젝트-폴라로이드-그림자제거.png');
+
+  right:10%;
 }
 
 /* 그림자 만들어주기! */
