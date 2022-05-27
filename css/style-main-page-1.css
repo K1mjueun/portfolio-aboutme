@@ -53,6 +53,10 @@
   z-index: 1;
 }
 
+.windie-memo, .bubbleroom-memo, .toyproject-memo:hover {
+  cursor: pointer;
+}
+
 .windie-memo {
   width: 350px;
   height: 400px;
