@@ -113,6 +113,14 @@
   justify-content: center;
 }
 
+.windie-memo,.shadow-1 {
+  transform: rotate(-5deg);
+}
+
+.bubbleroom-memo,.shadow-2 {
+  transform: rotate(2.5deg);
+}
+
 .windie-memo > h1, .bubbleroom-memo > h1, .toyproject-memo > h1 {
   font-family: 'Poppins';
   font-size: 20px;
@@ -212,4 +220,35 @@ position: absolute;
 .click-3 {
   bottom:11%;
   right: 17%;
+}
+
+.click-1 > section, .click-2 > section, .click-3 > section {
+  width: 65%;
+  height: 100%;
+  background-size: cover;
+}
+
+.click-1 > section {
+  background-image: url('/img/arrow-1.png');
+}
+
+.click-2 > section {
+  background-image: url('/img/arrow-2.png');
+}
+
+.click-3 > section {
+  background-image: url('/img/arrow-3.png');
+}
+
+.click-1 > h1, .click-2 > h1, .click-3 > h1 {
+  width: 35%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--color-orange-2);
 }
