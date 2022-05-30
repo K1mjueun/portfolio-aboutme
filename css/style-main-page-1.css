@@ -10,7 +10,7 @@
   opacity : 0;
 }
 
-#orange-board {
+#note-board {
   width: 90%;
   height: 90%;
   border-radius: 20px;
@@ -186,4 +186,30 @@ position: absolute;
   height: 400px;
   right:12.3%;
   bottom:23%;
+}
+
+.click-1, .click-2, .click-3 {
+  width: 120px;
+  height: 60px;
+  border: red 1px solid;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.click-1 {
+  bottom:12%;
+  left: 18%;
+}
+
+.click-2 {
+  top:25%;
+  right: 45%;
+}
+
+.click-3 {
+  bottom:11%;
+  right: 17%;
 }
