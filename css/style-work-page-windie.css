@@ -1,0 +1,12 @@
+/* work-page-windie */
+#work-page-windie {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
