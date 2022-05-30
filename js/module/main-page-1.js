@@ -1,5 +1,5 @@
 // main page 1
-const mainPage1 = document.querySelector("#main-page-1");
+const mainPage1 = document.querySelector("#main-page");
 
 displayChange(myPhoto,startPage2,mainPage1);
 
@@ -14,13 +14,13 @@ const toypjMemo = document.querySelector(".toyproject-memo");
 
 const bling = document.querySelector('.my-photo-mini > section:nth-child(2)');
 
-const mpclick1 = document.querySelector('#main-page-1 > #note-board >.click-1');
-const mpclick2 = document.querySelector('#main-page-1 > #note-board >.click-2');
-const mpclick3 = document.querySelector('#main-page-1 > #note-board >.click-3');
+const mpclick1 = document.querySelector('#main-page > #note-board >.click-1');
+const mpclick2 = document.querySelector('#main-page > #note-board >.click-2');
+const mpclick3 = document.querySelector('#main-page > #note-board >.click-3');
 
-const mparrow1 = document.querySelector('#main-page-1 > #note-board >.arrow-1');
-const mparrow2 = document.querySelector('#main-page-1 > #note-board >.arrow-2');
-const mparrow3 = document.querySelector('#main-page-1 > #note-board >.arrow-3');
+const mparrow1 = document.querySelector('#main-page > #note-board >.arrow-1');
+const mparrow2 = document.querySelector('#main-page > #note-board >.arrow-2');
+const mparrow3 = document.querySelector('#main-page > #note-board >.arrow-3');
 
 let windieMemoWidth = 350;
 let windieMemoHeight = 400;

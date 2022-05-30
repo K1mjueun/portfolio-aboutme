@@ -1,5 +1,5 @@
 /* main page 1 */
-#main-page-1 {
+#main-page {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-orange-1);
@@ -196,39 +196,39 @@ position: absolute;
   bottom:23%;
 }
 
-#main-page-1 > #note-board > .click-1, #main-page-1 > #note-board >.click-2, #main-page-1 > #note-board >.click-3, #main-page-1 > #note-board >.arrow-1, #main-page-1 > #note-board >.arrow-2, #main-page-1 > #note-board >.arrow-3 {
+#main-page > #note-board > .click-1, #main-page > #note-board >.click-2, #main-page > #note-board >.click-3, #main-page > #note-board >.arrow-1, #main-page > #note-board >.arrow-2, #main-page > #note-board >.arrow-3 {
   display: none;
 }
 
-#main-page-1 > #note-board >.click-1, #main-page-1 > #note-board >.click-2, #main-page-1 > #note-board >.click-3 {
+#main-page > #note-board >.click-1, #main-page > #note-board >.click-2, #main-page > #note-board >.click-3 {
   font-size: 25px;
   font-weight: lighter;
   color: var(--color-orange-2);
   position: absolute;
 }
 
-#main-page-1 > #note-board >.click-1 {
+#main-page > #note-board >.click-1 {
   bottom:14%;
   left: 22%;
 }
 
-#main-page-1 > #note-board >.click-2 {
+#main-page > #note-board >.click-2 {
   top:25%;
   right: 47%;
 }
 
-#main-page-1 > #note-board >.click-3 {
+#main-page > #note-board >.click-3 {
   bottom:13%;
   right: 16.5%;
   transform: rotate(-10deg);
 }
 
-#main-page-1 > #note-board >.arrow-1, #main-page-1 > #note-board >.arrow-2, #main-page-1 > #note-board >.arrow-3 {
+#main-page > #note-board >.arrow-1, #main-page > #note-board >.arrow-2, #main-page > #note-board >.arrow-3 {
   background-size: cover;
   position: absolute;
 }
 
-#main-page-1 > #note-board >.arrow-1 {
+#main-page > #note-board >.arrow-1 {
   width: 30px;
   height: 50px;
   bottom:15%;
@@ -237,7 +237,7 @@ position: absolute;
   transform: rotate(60deg);
 }
 
-#main-page-1 > #note-board >.arrow-2 {
+#main-page > #note-board >.arrow-2 {
   width: 50px;
   height: 50px;
   top:25%;
@@ -246,7 +246,7 @@ position: absolute;
   transform: rotate(-70deg);
 }
 
-#main-page-1> #note-board >.arrow-3 {
+#main-page > #note-board >.arrow-3 {
   width: 25px;
   height: 50px;
   bottom:13%;
