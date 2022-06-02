@@ -59,7 +59,7 @@ let displayAppear = [
       target2.style.display = 'flex';
       target3.style.display = 'flex';
     });
-  }
+  };
   //작업물 마우스오버하면 커지는 효과
 
   function mouseleaveSmaller (target, target2, target3, widthsize, heightsize) {
@@ -71,7 +71,16 @@ let displayAppear = [
         target2.style.display = 'none';
         target3.style.display = 'none';
     });
-  }
+  };
   //작업물 마우스리브하면 작아지는 효과
 
-  
+  function tothetop(element) {
+    element.addEventListener('click',function(){
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+        transition: ".5s"
+      });
+    });
+  }
+  //탑버튼 효과

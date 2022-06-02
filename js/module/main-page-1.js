@@ -1,8 +1,6 @@
 // main page 1
 const mainPage1 = document.querySelector("#main-page");
 
-displayChange(myPhoto,startPage2,mainPage1);
-
 const blind = document.querySelector(".blind");
 const shadow1 = document.querySelector(".shadow-1");
 const shadow2 = document.querySelector(".shadow-2");
@@ -39,21 +37,20 @@ mouseleaveSmaller(windieMemo, mpclick1, mparrow1,windieMemoWidth, windieMemoHeig
 mouseleaveSmaller(bubbleroomMemo, mpclick2, mparrow2,bubbleroomMemoWidth, bubbleroomMemoHeight);
 mouseleaveSmaller(toypjMemo, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
 
+displayChange(myPhoto,startPage2,mainPage1);
+
 let blingBingle = [
   {transform : 'rotate(0deg)'},
   {transform : 'rotate(360deg)'}
 ];
 
   let blingBingleTime = {
-    duration:1500,
+    duration:1000,
     iterations:1
   };
 
-if(mainPage1.style.display = 'flex') {
-  bling.style.display = "flex";
-  if(bling.style.display = "flex") {
+myPhoto.addEventListener('click', function() {
     setTimeout(function() {
       bling.animate(blingBingle,blingBingleTime);
-    },1500);
-  };
-};
+    },500);
+});

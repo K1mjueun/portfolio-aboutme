@@ -49,7 +49,6 @@
 }
 
 .my-photo-mini > section:nth-child(2) {
-  display: none;
   width: 33.5px;
   height: 50px;
   background-image: url('/img/blingbling.png');
