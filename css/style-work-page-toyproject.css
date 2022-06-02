@@ -1,0 +1,105 @@
+/* work-page-toyproject */
+#work-page-toyproject {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+.arrow-sticker,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button:hover {
+  cursor: pointer;
+}
+
+.arrow-sticker, .toyproject-memo-2, #work-img-slide, #work-process {
+  position: absolute;
+  background-size: cover;
+}
+
+.arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  transform: rotate(3deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+.toyproject-memo-2 {
+  width: 160px;
+  height: 240px;
+  background-image: url('/img/토이프로젝트-폴라로이드-그림자제거.png');
+  transform: rotate(2deg);
+  
+  top:-5%;
+}
+
+#work-img-slide {
+  width:60%;
+  height:55%;
+  bottom:18%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-button, #work-img-slide > section, .right-button {
+  height: 100%;
+}
+
+#work-img-slide>.left-button, #work-img-slide>.right-button {
+  width: 10%;
+  font-size: 35px;
+  color: var(--color-gray-2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work-img-slide > section {
+  width: 80%;
+  background-color: cadetblue;
+}
+
+#work-process {
+  width:48%;
+  height:5%;
+  bottom:9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#work-process > section {
+  width: 15%;
+  height: 100%;
+  background-color:var(--color-orange-1);
+  border-radius: 5px;
+  border: #fff 3px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-gray-2);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
