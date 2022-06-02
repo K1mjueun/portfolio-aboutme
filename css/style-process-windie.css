@@ -1,0 +1,11 @@
+/* windie-process-page */
+#windie-process-page {
+  width: 100vw;
+  height: 300vh;
+  background-color: var(--color-orange-1);
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
