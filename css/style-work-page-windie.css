@@ -10,3 +10,83 @@
   opacity : 0;
 }
 
+.arrow-sticker:hover {
+  cursor: pointer;
+}
+
+.arrow-sticker, .windie-memo-2, #work-img-slide, #work-process {
+  position: absolute;
+  background-size: cover;
+}
+
+.arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  transform: rotate(3deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+.windie-memo-2 {
+  width: 180px;
+  height: 210px;
+  background-image: url('/img/윈디-메모지-그림자제거.png');
+  transform: rotate(2deg);
+  
+  top:-4%;
+}
+
+#work-img-slide {
+  width:60%;
+  height:55%;
+  bottom:17%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid saddlebrown;
+}
+
+.left-button, #work-img-slide > section, .right-button {
+  height: 100%;
+}
+
+#work-img-slide>.left-button {
+  width: 10%;
+  background-color: aquamarine;
+}
+
+#work-img-slide > section {
+  width: 80%;
+  background-color: beige;
+}
+
+#work-img-slide>.right-button {
+  width: 10%;
+  background-color: skyblue;
+}
+
+#work-process {
+  width:60%;
+  height:5%;
+  bottom:8.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  border: 1px solid saddlebrown;
+}
+
