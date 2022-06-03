@@ -4,3 +4,5 @@ const backBtn1 = document.querySelector("#work-page-windie>#note-board>.arrow-st
 
 displayChange(windieMemo,mainPage1,wpWindie);
 displayChange(backBtn1,wpWindie,mainPage1);
+
+const windieWorkProBtns = document.querySelector("#work-page-windie > #work-process");
