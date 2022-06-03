@@ -1,0 +1,32 @@
+/* contact-page */
+#contact-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+  /* opacity : 0; */
+}
+
+#contact-page, .paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paper {
+  width: 60%;
+  height: 30%;
+  background-image: url('/img/종이텍스쳐.jpg');
+  background-size: cover;
+}
+
+.paper>h1,.paper>h2 {
+  font-family: 'Lilita One';
+  font-size: 80px;
+  color: var(--color-orange-1);
+  -webkit-text-stroke: 1.5px var(--color-orange-2);
+}
