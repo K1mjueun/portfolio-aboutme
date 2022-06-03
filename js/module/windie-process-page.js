@@ -1,6 +1,6 @@
 // windie-process-page
 const windieProPage = document.querySelector('#windie-process-page');
-displayChange(windieWorkProBtns,wpWindie,windieProPage);
+displayChange(windieWorkProBtns.children[0],wpWindie,windieProPage);
 
 const windieTopBtn = document.querySelector("#windie-process-page > #windie-process-page-5 > #note-board > .top-sticker");
 

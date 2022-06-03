@@ -1,5 +1,5 @@
-/* windie-process-page */
-#windie-process-page {
+/* bubbleroom-process-page */
+#bubbleroom-process-page {
   width: 100vw;
   height: 500vh;
   display: none;
@@ -8,7 +8,7 @@
   position: relative;
 }
 
-#windie-process-page > #windie-process-page-1 > #note-board >.process-arrow-sticker {
+#bubbleroom-process-page > #bubbleroom-process-page-1 > #note-board >.process-arrow-sticker {
   width: 150px;
   height: 60px;
   background-image: url('/img/뒤로가기-화살표.png');
@@ -24,16 +24,16 @@
   position: absolute;
 }
 
-#windie-process-page > #windie-process-page-1 > #note-board >.process-arrow-sticker > h1 {
+#bubbleroom-process-page > #bubbleroom-process-page-1 > #note-board >.process-arrow-sticker > h1 {
   font-size: 15px;
   color: #f0f0f0;
 }
 
-#windie-process-page > #windie-process-page-1 > #note-board >.process-arrow-sticker,#windie-process-page > #windie-process-page-5 > #note-board >.top-sticker:hover {
+#bubbleroom-process-page > #bubbleroom-process-page-1 > #note-board >.process-arrow-sticker,#bubbleroom-process-page > #bubbleroom-process-page-5 > #note-board >.top-sticker:hover {
   cursor: pointer;
 }
 
-#windie-process-page > #windie-process-page-5 > #note-board >.top-sticker {
+#bubbleroom-process-page > #bubbleroom-process-page-5 > #note-board >.top-sticker {
   width: 150px;
   height: 60px;
   border-radius: 100%;
@@ -50,12 +50,12 @@
   justify-content: center;
 }
 
-#windie-process-page > #windie-process-page-5 > #note-board >.top-sticker > h1 {
+#bubbleroom-process-page > #bubbleroom-process-page-5 > #note-board >.top-sticker > h1 {
   font-size: 16px;
   color: var(--color-orange-2);
 }
 
-#windie-process-page-1,#windie-process-page-2,#windie-process-page-3,#windie-process-page-4,#windie-process-page-5 {
+#bubbleroom-process-page-1,#bubbleroom-process-page-2,#bubbleroom-process-page-3,#bubbleroom-process-page-4,#bubbleroom-process-page-5 {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-orange-1);
