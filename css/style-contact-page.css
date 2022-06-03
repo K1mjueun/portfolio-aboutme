@@ -10,7 +10,7 @@
   /* opacity : 0; */
 }
 
-#contact-page, .paper {
+#contact-page, .paper,#contact-page > h3,#contact-page > h4{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +27,18 @@
 .paper>h1,.paper>h2 {
   font-family: 'Lilita One';
   font-size: 80px;
-  color: var(--color-orange-1);
+  color: #f0f0f0;
   -webkit-text-stroke: 1.5px var(--color-orange-2);
+}
+
+#contact-page > h3, #contact-page > h4 {
+width: 25%;
+height: 8%;
+font-size: 18px;
+font-family: 'Poppins';
+
+background-color: var(--color-orange-1);
+border:var(--color-orange-2) 5px solid;
+border-radius: 10px;
+margin-top: 30px;
 }
