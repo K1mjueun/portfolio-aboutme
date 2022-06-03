@@ -6,3 +6,6 @@ displayChange(toypjMemo,mainPage1,wpToyproject);
 displayChange(backBtn3,wpToyproject,mainPage1);
 
 const toypjWorkProBtns = document.querySelector("#work-page-toyproject > #work-process");
+
+const contactStamp3 = document.querySelector(".contact-stamp-3");
+contactStamp(toypjMemo,contactStamp3);

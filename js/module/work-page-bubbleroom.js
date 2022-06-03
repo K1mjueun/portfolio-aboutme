@@ -6,3 +6,6 @@ displayChange(bubbleroomMemo,mainPage1,wpBubbleroom);
 displayChange(backBtn2,wpBubbleroom,mainPage1);
 
 const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom > #work-process");
+
+const contactStamp2 = document.querySelector(".contact-stamp-2");
+contactStamp(bubbleroomMemo,contactStamp2);

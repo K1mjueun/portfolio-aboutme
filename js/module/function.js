@@ -84,3 +84,11 @@ let displayAppear = [
     });
   }
   //탑버튼 효과
+
+  function contactStamp(element,target) {
+    element.addEventListener('click', function() {
+      setTimeout(function() {
+      target.style.display="flex";
+      },3000);
+    });
+  };

@@ -6,3 +6,6 @@ displayChange(windieMemo,mainPage1,wpWindie);
 displayChange(backBtn1,wpWindie,mainPage1);
 
 const windieWorkProBtns = document.querySelector("#work-page-windie > #work-process");
+
+const contactStamp1 = document.querySelector(".contact-stamp-1");
+contactStamp(windieMemo,contactStamp1);
