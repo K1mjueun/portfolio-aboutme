@@ -253,3 +253,52 @@ position: absolute;
   background-image: url('/img/arrow-3.png');
   transform: rotate(-70deg);
 }
+
+/* 스티커들 */
+.windie-sticker, .bubbleroom-sticker, .toyproject-sticker, .toyproject-sticker-circle {
+  background-size: cover;
+  position: absolute;
+}
+
+.windie-sticker {
+  width: 170px;
+  height: 50px;
+  background-image: url('/img/스티커/윈디-스티커-가로형.png');
+
+  bottom:13%;
+  left:9%;
+  transform: rotate(-10deg);
+}
+
+.bubbleroom-sticker {
+  width: 160px;
+  height: 70px;
+  background-image: url('/img/스티커/버블룸-스티커-타원형-2.png');
+
+  top:25%;
+  right:35%;
+  transform: rotate(-3deg);
+}
+
+.toyproject-sticker {
+  width: 100px;
+  height: 100px;
+  background-image: url('/img/스티커/만두-스티커-메롱.png');
+
+  bottom:10%;
+  right:5%;
+  transform: rotate(-3deg);
+
+  z-index: 1;
+}
+
+.toyproject-sticker-circle {
+  width: 90px;
+  height: 90px;
+  background-image: url('/img/스티커/만두-스티커-원형-기본.png');
+
+  bottom:7%;
+  right:7.5%;
+  transform: rotate(10deg);
+}
+/* 스티커들 */
