@@ -116,3 +116,9 @@
 
   display: none;
 }
+
+.bubbleroom-display {
+  width: 80%;
+  background-image: url("/img/슬라이더 이미지/bubbleroom.png");
+  background-size: cover;
+}

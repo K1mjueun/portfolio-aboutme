@@ -71,11 +71,6 @@
   justify-content: center;
 }
 
-#work-img-slide > section {
-  width: 80%;
-  background-color: cadetblue;
-}
-
 #work-process {
   width:48%;
   height:5%;
@@ -141,4 +136,10 @@
   top: 20%;
   left: 42%;
   transform: rotate(10deg);
+}
+
+.windie-display {
+    width: 80%;
+    background-image: url("/img/슬라이더 이미지/windie.png");
+    background-size: cover;
 }
