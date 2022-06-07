@@ -2,7 +2,8 @@
 #contact-page {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-orange-1);
+  background-image: url('/img/종이-이미지-수정.png');
+  background-size: cover;
   
   display: none;
   align-items: center;
@@ -10,7 +11,21 @@
   opacity : 0;
 }
 
-#contact-page, .paper,#contact-page > h3,#contact-page > h4{
+#note-board-2 {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  background-color: var(--color-orange-1);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.1);
+}
+
+#contact-page, .paper,#note-board-2 > h3,#note-board-2 > h4{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +46,7 @@
   -webkit-text-stroke: 1.5px var(--color-orange-2);
 }
 
-#contact-page > h3, #contact-page > h4 {
+#note-board-2 > h3, #note-board-2 > h4 {
 width: 25%;
 height: 8%;
 font-size: 18px;
