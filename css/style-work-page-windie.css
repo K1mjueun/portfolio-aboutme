@@ -116,3 +116,29 @@
 
   display: none;
 }
+
+.work-page-pen, .work-page-pen-2 {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.work-page-pen {
+  width: 120px;
+  height: 80px;
+  background-image: url("/img/펜/펜-강조-오렌지2.png");
+
+  right: 22%;
+  top: 20%;
+  transform: rotate(20deg);
+}
+
+.work-page-pen-2 {
+  width: 200px;
+  height: 25px;
+  background-image: url("/img/펜/펜-밑줄-오렌지2.png");
+  
+  top: 20%;
+  left: 42%;
+  transform: rotate(10deg);
+}
