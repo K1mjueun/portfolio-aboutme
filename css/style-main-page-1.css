@@ -255,9 +255,19 @@ position: absolute;
 }
 
 /* 스티커들 */
-.windie-sticker, .bubbleroom-sticker, .toyproject-sticker, .toyproject-sticker-circle {
+.windie-sticker, .bubbleroom-sticker, .toyproject-sticker, .toyproject-sticker-circle, .my-work-line {
   background-size: cover;
   position: absolute;
+}
+
+.my-work-line {
+  width: 200px;
+  height: 25px;
+  background-image: url("/img/펜/펜-밑줄-오렌지2-좌우반전.png");
+  background-size: cover;
+
+  top : 14%;
+  z-index: 1;
 }
 
 .windie-sticker {
