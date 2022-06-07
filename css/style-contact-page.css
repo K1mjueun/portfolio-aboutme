@@ -4,10 +4,10 @@
   height: 100vh;
   background-color: var(--color-orange-1);
   
-  /* display: none; */
+  display: none;
   align-items: center;
   justify-content: center;
-  /* opacity : 0; */
+  opacity : 0;
 }
 
 #contact-page, .paper,#contact-page > h3,#contact-page > h4{
