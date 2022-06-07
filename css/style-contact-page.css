@@ -48,12 +48,50 @@
 
 #note-board-2 > h3, #note-board-2 > h4 {
 width: 25%;
-height: 8%;
+height: 10.5%;
 font-size: 18px;
 font-family: 'Poppins';
 
-background-color: var(--color-orange-1);
-border:var(--color-orange-2) 5px solid;
+background-size: cover;
 border-radius: 10px;
 margin-top: 30px;
+}
+
+#note-board-2 > h3, #note-board-2 > h4 {
+  background-image: url("/img/펜/펜-타원형-오렌지2.png");
+}
+
+.github-sticker, .mail-sticker, .deco-sticker {
+  position: absolute;
+  background-size: cover;
+}
+
+.mail-sticker {
+  width: 80px;
+  height: 60px;
+  background-image: url("/img/스티커/지메일-스티커-기본.png");
+  
+  transform: rotate(-10deg);
+  top: 54%;
+  left: 39.5%;
+}
+
+.github-sticker {
+  width: 80px;
+  height: 80px;
+  background-image: url("/img/스티커/깃허브-스티커-블랙-테두리.png");
+  
+  transform: rotate(10deg);
+  bottom:23%;
+  right: 40%;
+}
+
+.deco-sticker {
+  width:140px;
+  height:100px;
+  background-image: url("/img/펜/펜-강조-오렌지2.png");
+
+  transform: rotate(10deg);
+  top:20%;
+  right:35%;
 }
