@@ -92,6 +92,37 @@ let displayAppear = [
       },3000);
     });
   };
+  //마지막 화면(contact 화면)으로 가는 도장 등장
 
-  //슬라이더
-  
+  function windieSildeControl(arr) {
+    arr.forEach((value) => {
+      let getDatasetValue = Number(value.dataset.slidewindie);
+      if (getDatasetValue === current) {
+        value.style.display = "flex";
+      } else {
+        value.style.display = "none";
+      }
+    });
+  }
+  //슬라이더 작동을 위한 데이터셋 컨트롤(윈디용)
+
+  let current = 0;
+  function windieSlide(button,targetArr) {
+    button.addEventListener('click', function () {
+      if (button === leftBtn1) {
+        current--;
+        if (current < 0) {
+          current = targetArr.length - 1;
+        }
+        windieSlideControl(targetArr);
+      }
+      if (button === rightBtn1) {
+        current++;
+        if (current >= targetArr.length) {
+          current = 0;
+        }
+        windieSlideControl(targetArr);
+      }
+    });
+  };
+  //슬라이더 작동(윈디용)
