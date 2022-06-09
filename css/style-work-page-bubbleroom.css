@@ -71,11 +71,6 @@
   justify-content: center;
 }
 
-#work-img-slide > section {
-  width: 80%;
-  background-color: cadetblue;
-}
-
 #work-process {
   width:48%;
   height:5%;
@@ -117,8 +112,40 @@
   display: none;
 }
 
-.bubbleroom-display {
+.bubbleroom-display-1, .bubbleroom-display-2, .bubbleroom-display-3, .bubbleroom-display-4, .bubbleroom-display-5, .bubbleroom-display-6, .bubbleroom-display-7,.bubbleroom-display-8 {
   width: 80%;
-  background-image: url("/img/슬라이더 이미지/bubbleroom.png");
+  background-color: #fff;
   background-size: cover;
+}
+
+.bubbleroom-display-1 {
+  background-image: url('/img/목업/목업-버블룸-메인.png');
+}
+
+.bubbleroom-display-2 {
+  background-image: url('/img/목업/목업-PC-버블룸-1.png');
+}
+
+.bubbleroom-display-3 {
+  background-image: url('/img/목업/목업-버블룸-폰-1.png');
+}
+
+.bubbleroom-display-4 {
+  background-image: url('/img/목업/목업-버블룸-폰-2.png');
+}
+
+.bubbleroom-display-5 {
+  background-image: url('/img/목업/목업-버블룸-폰-가로형-1.png');
+}
+
+.bubbleroom-display-6 {
+  background-image: url('/img/목업/목업-버블룸-폰-가로형-2.png');
+}
+
+.bubbleroom-display-7 {
+  background-image: url('/img/목업/목업-태블릿-버블룸.png');
+}
+
+.bubbleroom-display-8 {
+  background-image: url('/img/목업/목업-태블릿-버블룸.png');
 }

@@ -71,11 +71,6 @@
   justify-content: center;
 }
 
-#work-img-slide > section {
-  width: 80%;
-  background-color: cadetblue;
-}
-
 #work-process {
   width:48%;
   height:5%;
@@ -117,8 +112,16 @@
   display: none;
 }
 
-.toyproject-display {
+.toyproject-display-1, .toyproject-display-2 {
   width: 80%;
-  background-image: url("/img/슬라이더 이미지/toyproject.png");
+  background-color: #fff;
   background-size: cover;
+}
+
+.toyproject-display-1 {
+  background-image: url('/img/목업/목업-토이프로젝트-메인.png');
+}
+
+.toyproject-display-2 {
+  background-image: url('/img/목업/목업-토이프로젝트-PC-1.png');
 }

@@ -138,8 +138,28 @@
   transform: rotate(10deg);
 }
 
-.windie-display {
+.windie-display-1,.windie-display-2,.windie-display-3,.windie-display-4,.windie-display-5{
     width: 80%;
-    background-image: url("/img/슬라이더 이미지/windie.png");
+    background-color: #fff;
     background-size: cover;
+}
+
+.windie-display-1 {
+  background-image: url("/img/목업/목업-윈디-메인.png");
+}
+
+.windie-display-2 {
+  background-image: url("/img/목업/목업-윈디-폰-1.png");
+}
+
+.windie-display-3 {
+  background-image: url("/img/목업/목업-윈디-폰-2.png");
+}
+
+.windie-display-4 {
+  background-image: url("/img/목업/목업-윈디-폰-가로형-1.png");
+}
+
+.windie-display-5 {
+  background-image: url("/img/목업/목업-윈디-폰-가로형-5.png");
 }
