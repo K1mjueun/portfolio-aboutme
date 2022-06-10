@@ -9,3 +9,17 @@ const toypjWorkProBtns = document.querySelector("#work-page-toyproject > #work-p
 
 const contactStamp3 = document.querySelector(".contact-stamp-3");
 contactStamp(toypjMemo,contactStamp3);
+
+const leftBtn3 = document.querySelector("#work-page-toyproject > #work-img-slide > .left-button");
+const rightBtn3 = document.querySelector("#work-page-toyproject > #work-img-slide > .right-button");
+
+const imgSlideToyproject = document.querySelector("#work-page-toyproject > #work-img-slide");
+
+const toyprojectSlide1 = imgSlideToyproject.children[1];
+const toyprojectSlide2 = imgSlideToyproject.children[2];
+
+const toyprojectSlides = [toyprojectSlide1,toyprojectSlide2];
+
+toyprojectSlideControl(toyprojectSlides);
+toyprojectSlide(leftBtn3,toyprojectSlides);
+toyprojectSlide(rightBtn3,toyprojectSlides);

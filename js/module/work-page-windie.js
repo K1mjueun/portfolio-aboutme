@@ -23,6 +23,6 @@ const windieSlide5 = imgSlideWindie.children[5];
 
 const windieSlides = [windieSlide1,windieSlide2,windieSlide3,windieSlide4,windieSlide5];
 
-windieSildeControl(windieSlides);
+windieSlideControl(windieSlides);
 windieSlide(leftBtn1,windieSlides);
 windieSlide(rightBtn1,windieSlides);

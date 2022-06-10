@@ -94,9 +94,9 @@ let displayAppear = [
   };
   //마지막 화면(contact 화면)으로 가는 도장 등장
 
-  function windieSildeControl(arr) {
+  function windieSlideControl(arr) {
     arr.forEach((value) => {
-      let getDatasetValue = Number(value.dataset.slidewindie);
+      let getDatasetValue = Number(value.dataset.slideWindie);
       if (getDatasetValue === current) {
         value.style.display = "flex";
       } else {
@@ -126,3 +126,67 @@ let displayAppear = [
     });
   };
   //슬라이더 작동(윈디용)
+
+  function bubbleroomSlideControl(arr) {
+    arr.forEach((value) => {
+      let getDatasetValue = Number(value.dataset.slideBubbleroom);
+      if (getDatasetValue === current) {
+        value.style.display = "flex";
+      } else {
+        value.style.display = "none";
+      }
+    });
+  }
+  //슬라이더 작동을 위한 데이터셋 컨트롤(버블룸용)
+
+  function bubbleroomSlide(button,targetArr) {
+    button.addEventListener('click', function () {
+      if (button === leftBtn2) {
+        current--;
+        if (current < 0) {
+          current = targetArr.length - 1;
+        }
+        bubbleroomSlideControl(targetArr);
+      }
+      if (button === rightBtn2) {
+        current++;
+        if (current >= targetArr.length) {
+          current = 0;
+        }
+        bubbleroomSlideControl(targetArr);
+      }
+    });
+  };
+  //슬라이더 작동(버블룸용)
+
+  function toyprojectSlideControl(arr) {
+    arr.forEach((value) => {
+      let getDatasetValue = Number(value.dataset.slideToyproject);
+      if (getDatasetValue === current) {
+        value.style.display = "flex";
+      } else {
+        value.style.display = "none";
+      }
+    });
+  }
+  //슬라이더 작동을 위한 데이터셋 컨트롤(토이프로젝트용)
+
+  function toyprojectSlide(button,targetArr) {
+    button.addEventListener('click', function () {
+      if (button === leftBtn3) {
+        current--;
+        if (current < 0) {
+          current = targetArr.length - 1;
+        }
+        toyprojectSlideControl(targetArr);
+      }
+      if (button === rightBtn3) {
+        current++;
+        if (current >= targetArr.length) {
+          current = 0;
+        }
+        toyprojectSlideControl(targetArr);
+      }
+    });
+  };
+  //슬라이더 작동(토이프로젝트용)

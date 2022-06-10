@@ -142,6 +142,7 @@
     width: 80%;
     background-position: center;
     background-size: cover;
+    background-color: #fff;
 }
 
 .windie-display-1 {
@@ -161,5 +162,5 @@
 }
 
 .windie-display-5 {
-  background-image: url("/img/목업/목업-윈디-폰-가로형-5.png");
+  background-image: url("/img/목업/목업-윈디-폰-가로형-2.png");
 }

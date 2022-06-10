@@ -116,6 +116,7 @@
   width: 80%;
   background-position: center;
   background-size: cover;
+  background-color: #fff;
 }
 
 .bubbleroom-display-1 {
@@ -147,5 +148,5 @@
 }
 
 .bubbleroom-display-8 {
-  background-image: url('/img/목업/목업-태블릿-버블룸.png');
+  background-image: url('/img/목업/목업-태블릿-버블룸-2.png');
 }
