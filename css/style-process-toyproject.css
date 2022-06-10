@@ -58,7 +58,7 @@
 #toyproject-process-page-1,#toyproject-process-page-2,#toyproject-process-page-3,#toyproject-process-page-4,#toyproject-process-page-5 {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
   
   display: flex;
   align-items: center;

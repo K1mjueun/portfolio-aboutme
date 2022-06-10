@@ -58,7 +58,7 @@
 #bubbleroom-process-page-1,#bubbleroom-process-page-2,#bubbleroom-process-page-3,#bubbleroom-process-page-4,#bubbleroom-process-page-5 {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
   
   display: flex;
   align-items: center;
@@ -104,14 +104,6 @@
 
 .bubbleroom-process-img-5 > section {
   background-image: url("/img/목업/목업-버블룸-폰-1.png");
-}
-
-.bubbleroom-process-info-1, .bubbleroom-process-info-2, .bubbleroom-process-info-3, .bubbleroom-process-info-4, .bubbleroom-process-info-5 {
-  width: 45%;
-  height: 80%;
-  margin-top: 1%;
-  margin-left: 2%;
-  border: red 1px solid;
 }
 
 .bubbleroom-process-info-1, .bubbleroom-process-info-2, .bubbleroom-process-info-3, .bubbleroom-process-info-4, .bubbleroom-process-info-5 {

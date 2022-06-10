@@ -58,7 +58,7 @@
 #windie-process-page-1,#windie-process-page-2,#windie-process-page-3,#windie-process-page-4,#windie-process-page-5 {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
   
   display: flex;
   align-items: center;
