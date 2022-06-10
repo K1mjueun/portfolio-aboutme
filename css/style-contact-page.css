@@ -36,21 +36,21 @@
 .paper {
   width: 60%;
   height: 30%;
-  background-color: #f0f0f0;
+  background-color: #fff;
   background-size: cover;
 }
 
 .paper>h1,.paper>h2 {
   font-family: 'Lilita One';
   font-size: 80px;
-  color: #f0f0f0;
+  color: #fff;
   -webkit-text-stroke: 1.5px var(--color-orange-2);
 }
 
 #note-board-2 > h3, #note-board-2 > h4 {
 width: 25%;
 height: 10.5%;
-font-size: 18px;
+font-size: 20px;
 font-family: 'Poppins';
 
 background-size: cover;
@@ -62,7 +62,7 @@ margin-top: 30px;
   background-image: url("/img/펜/펜-타원형-오렌지2.png");
 }
 
-.github-sticker, .mail-sticker, .deco-sticker {
+.github-sticker, .mail-sticker, .deco-sticker, .tape {
   position: absolute;
   background-size: cover;
 }
@@ -95,4 +95,15 @@ margin-top: 30px;
   transform: rotate(10deg);
   top:20%;
   right:35%;
+}
+
+.tape {
+  width: 200px;
+  height: 50px;
+  background-image: url("/img/테이프-2.png");
+
+  top:20%;
+  transform: rotate(3deg);
+
+  z-index: 2;
 }
