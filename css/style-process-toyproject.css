@@ -97,7 +97,13 @@
   height: 80%;
   margin-top: 6%;
   margin-left: 2%;
+  background-size: cover;
+  background-position: center;
   background-color: #fff;
+}
+
+.toyproject-process-img-5 > section {
+  background-image: url("/img/목업/목업-토이프로젝트-PC-1.png");
 }
 
 .toyproject-process-info-1, .toyproject-process-info-2, .toyproject-process-info-3, .toyproject-process-info-4, .toyproject-process-info-5 {
