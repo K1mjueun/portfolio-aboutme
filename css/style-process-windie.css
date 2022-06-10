@@ -64,3 +64,47 @@
   align-items: center;
   justify-content: center;
 }
+
+.windie-process-img-1, .windie-process-img-2, .windie-process-img-3, .windie-process-img-4, .windie-process-img-5 {
+  width: 45%;
+  height: 81%;
+  margin-top: -1%;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.windie-process-img-1 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-1.png");
+}
+.windie-process-img-2 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-2.png");
+}
+.windie-process-img-3 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-3.png");
+}
+.windie-process-img-4 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-4.png");
+}
+.windie-process-img-5 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
+}
+
+.windie-process-img-1 > section, .windie-process-img-2 > section, .windie-process-img-3 > section, .windie-process-img-4 > section, .windie-process-img-5 > section {
+  width: 85%;
+  height: 80%;
+  margin-top: 6%;
+  margin-left: 2%;
+  background-color: #fff;
+}
+
+.windie-process-info-1, .windie-process-info-2, .windie-process-info-3, .windie-process-info-4, .windie-process-info-5 {
+  width: 45%;
+  height: 80%;
+  margin-top: 1%;
+  margin-left: 2%;
+  border: red 1px solid;
+}
+
