@@ -14,6 +14,13 @@
   cursor: pointer;
 }
 
+#work-img-slide>.left-button:hover {
+  opacity: .3;
+}
+#work-img-slide>.right-button:hover {
+  opacity: .3;
+}
+
 .arrow-sticker, .windie-memo-2, #work-img-slide, #work-process {
   position: absolute;
   background-size: cover;
@@ -96,6 +103,10 @@
   font-size: 15px;
   font-weight: bold;
   font-family: 'Poppins';
+}
+
+#work-process > section:hover {
+  background-color: var(--color-orange-2);
 }
 
 .contact-stamp-1 {
