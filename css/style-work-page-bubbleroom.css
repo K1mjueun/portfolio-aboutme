@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.arrow-sticker, .bubbleroom-memo-2, #work-img-slide, #work-process {
+.arrow-sticker, .bubbleroom-memo-2, #work-img-slide, #work-process, .wp-bubbleroom-sticker-1, .wp-bubbleroom-sticker-2 {
   position: absolute;
   background-size: cover;
 }
@@ -110,6 +110,26 @@
   transform: rotate(-20deg);
 
   display: none;
+}
+
+.wp-bubbleroom-sticker-1 {
+  width: 140px;
+  height: 140px;
+  background-image: url("/img/스티커/버블룸-스티커-원형.png");
+
+  left: 10%;
+  top: 30%;
+  transform: rotate(-5deg);
+}
+
+.wp-bubbleroom-sticker-2 {
+  width: 160px;
+  height: 70px;
+  background-image: url("/img/스티커/버블룸-스티커-타원형-2.png");
+
+  left: 14%;
+  top: 41%;
+  transform: rotate(10deg);
 }
 
 .bubbleroom-display-1, .bubbleroom-display-2, .bubbleroom-display-3, .bubbleroom-display-4, .bubbleroom-display-5, .bubbleroom-display-6, .bubbleroom-display-7,.bubbleroom-display-8 {

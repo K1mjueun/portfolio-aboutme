@@ -123,7 +123,7 @@
   display: none;
 }
 
-.work-page-pen, .work-page-pen-2 {
+.work-page-pen, .work-page-pen-2,.wp-windie-sticker-1, .wp-windie-sticker-2 {
   background-size: cover;
   position: absolute;
   z-index: 1;
@@ -146,6 +146,26 @@
   
   top: 20%;
   left: 42%;
+  transform: rotate(10deg);
+}
+
+.wp-windie-sticker-1 {
+  width: 170px;
+  height: 50px;
+  background-image: url("/img/스티커/윈디-스티커-가로형.png");
+
+  left: 10%;
+  top: 30%;
+  transform: rotate(-5deg);
+}
+
+.wp-windie-sticker-2 {
+  width: 100px;
+  height: 100px;
+  background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
+
+  left: 15%;
+  top: 40%;
   transform: rotate(10deg);
 }
 
