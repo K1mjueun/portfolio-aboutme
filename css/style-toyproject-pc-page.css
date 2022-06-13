@@ -1,16 +1,18 @@
 /* toyproject-pc-page */
 #toyproject-pc-page {
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
   display: none;
   opacity : 0;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   position: relative;
 
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
 }
 
-#toyproject-pc-page >.pc-arrow-sticker {
+#toyproject-pc-page > #note-board >.pc-arrow-sticker {
   width: 150px;
   height: 60px;
   background-image: url('/img/뒤로가기-화살표.png');
@@ -26,16 +28,16 @@
   position: absolute;
 }
 
-#toyproject-pc-page >.pc-arrow-sticker > h1 {
+#toyproject-pc-page > #note-board >.pc-arrow-sticker > h1 {
   font-size: 15px;
   color: #f0f0f0;
 }
 
-#toyproject-pc-page >.pc-arrow-sticker,#toyproject-pc-page >.pc-top-sticker:hover {
+#toyproject-pc-page > #note-board>.pc-arrow-sticker,#toyproject-pc-page > #note-board>.pc-top-sticker:hover {
   cursor: pointer;
 }
 
-#toyproject-pc-page >.pc-top-sticker {
+#toyproject-pc-page > #note-board>.pc-top-sticker {
   width: 150px;
   height: 60px;
   border-radius: 100%;
@@ -52,7 +54,7 @@
   justify-content: center;
 }
 
-#toyproject-pc-page >.pc-top-sticker > h1 {
+#toyproject-pc-page > #note-board>.pc-top-sticker > h1 {
   font-size: 16px;
   color: var(--color-orange-2);
 }

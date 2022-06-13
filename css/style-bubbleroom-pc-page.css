@@ -1,16 +1,18 @@
 /* bubbleroom-pc-page */
 #bubbleroom-pc-page {
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
   display: none;
   opacity : 0;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   position: relative;
 
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
 }
 
-#bubbleroom-pc-page >.pc-arrow-sticker {
+#bubbleroom-pc-page > #note-board >.pc-arrow-sticker {
   width: 150px;
   height: 60px;
   background-image: url('/img/뒤로가기-화살표.png');
@@ -26,12 +28,12 @@
   position: absolute;
 }
 
-#bubbleroom-pc-page >.pc-arrow-sticker > h1 {
+#bubbleroom-pc-page > #note-board >.pc-arrow-sticker > h1 {
   font-size: 15px;
   color: #f0f0f0;
 }
 
-#bubbleroom-pc-page >.pc-arrow-sticker,#bubbleroom-pc-page >.pc-top-sticker:hover {
+#bubbleroom-pc-page > #note-board >.pc-arrow-sticker,#bubbleroom-pc-page > #note-board >.pc-top-sticker:hover {
   cursor: pointer;
 }
 

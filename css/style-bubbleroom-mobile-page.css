@@ -3,14 +3,27 @@
   width: 100vw;
   height: 200vh;
   display: none;
-  opacity : 0;
+  opacity: 0;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#bubbleroom-mobile-page-1, #bubbleroom-mobile-page-2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   position: relative;
 
-  background-color: var(--color-orange-1);
+  background-color: #f0f0f0;
 }
 
-#bubbleroom-mobile-page >.mobile-arrow-sticker {
+#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker {
   width: 150px;
   height: 60px;
   background-image: url('/img/뒤로가기-화살표.png');
@@ -26,16 +39,16 @@
   position: absolute;
 }
 
-#bubbleroom-mobile-page >.mobile-arrow-sticker > h1 {
+#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker > h1 {
   font-size: 15px;
   color: #f0f0f0;
 }
 
-#bubbleroom-mobile-page >.mobile-arrow-sticker,#bubbleroom-mobile-page >.mobile-top-sticker:hover {
+#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker,#bubbleroom-mobile-page-2>#note-board>.mobile-top-sticker:hover {
   cursor: pointer;
 }
 
-#bubbleroom-mobile-page >.mobile-top-sticker {
+#bubbleroom-mobile-page-2 >#note-board>.mobile-top-sticker {
   width: 150px;
   height: 60px;
   border-radius: 100%;
@@ -52,7 +65,7 @@
   justify-content: center;
 }
 
-#bubbleroom-mobile-page >.mobile-top-sticker > h1 {
+#bubbleroom-mobile-page-2 >#note-board>.mobile-top-sticker > h1 {
   font-size: 16px;
   color: var(--color-orange-2);
 }
