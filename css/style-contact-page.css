@@ -62,6 +62,19 @@ margin-top: 30px;
   background-image: url("/img/펜/펜-타원형-오렌지2.png");
 }
 
+#note-board-2 > h5 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: var(--color-gray-1);
+
+  position: absolute;
+  bottom: 16%;
+}
+
+#note-board-2 > h5:hover {
+  cursor: pointer;
+}
+
 .github-sticker, .mail-sticker, .deco-sticker, .tape {
   position: absolute;
   background-size: cover;
