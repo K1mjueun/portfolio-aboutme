@@ -10,3 +10,6 @@ console.log(contactStamp3);
 displayChange(contactStamp1,wpWindie,contactPage);
 displayChange(contactStamp2,wpBubbleroom,contactPage);
 displayChange(contactStamp3,wpToyproject,contactPage);
+
+const goFirstPage = document.querySelector("#note-board-2 > h5");
+displayChange(goFirstPage,contactPage,startPage1);
