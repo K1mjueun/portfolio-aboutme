@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 
-#start-2 > .speech-bubble {
+#start-2 > .start-speech-bubble {
 width: 160px;
 height: 160px;
 background-image: url('/img/speech-bubble.png');
@@ -40,7 +40,7 @@ align-items: center;
 justify-content: center;
 }
 
-#start-2 > .speech-bubble > p {
+#start-2 > .start-speech-bubble > p {
   font-family: 'Gamja Flower';
   text-align: center;
   color: #333;
