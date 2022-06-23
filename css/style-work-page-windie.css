@@ -29,7 +29,7 @@
 .arrow-sticker {
   width: 150px;
   height: 60px;
-  background-image: url('/img/뒤로가기-화살표.png');
+  background-image: url('./img/뒤로가기-화살표.png');
   transform: rotate(3deg);
   
   left:1%;
@@ -48,7 +48,7 @@
 .windie-memo-2 {
   width: 130px;
   height: 150px;
-  background-image: url('/img/윈디-메모지-그림자제거.png');
+  background-image: url('./img/윈디-메모지-그림자제거.png');
   transform: rotate(2deg);
   
   top:-5%;
@@ -112,7 +112,7 @@
 .contact-stamp-1 {
   width: 150px;
   height: 150px;
-  background-image: url('/img/contact-stamp.png');
+  background-image: url('./img/contact-stamp.png');
   background-size: cover;
   position: absolute;
 
@@ -132,7 +132,7 @@
 .work-page-pen {
   width: 120px;
   height: 80px;
-  background-image: url("/img/펜/펜-강조-오렌지2.png");
+  background-image: url("./img/펜/펜-강조-오렌지2.png");
 
   right: 19%;
   top: 11%;
@@ -142,7 +142,7 @@
 .wp-windie-sticker-1 {
   width: 170px;
   height: 50px;
-  background-image: url("/img/스티커/윈디-스티커-가로형.png");
+  background-image: url("./img/스티커/윈디-스티커-가로형.png");
 
   left: 8%;
   top: 33%;
@@ -152,7 +152,7 @@
 .wp-windie-sticker-2 {
   width: 100px;
   height: 100px;
-  background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
+  background-image: url("./img/스티커/윈디-스티커-직사각형-1.png");
 
   left: 12%;
   top: 40%;
@@ -167,21 +167,21 @@
 }
 
 .windie-display-1 {
-  background-image: url("/img/목업/목업-윈디-메인.png");
+  background-image: url("./img/목업/목업-윈디-메인.png");
 }
 
 .windie-display-2 {
-  background-image: url("/img/목업/목업-윈디-폰-1.png");
+  background-image: url("./img/목업/목업-윈디-폰-1.png");
 }
 
 .windie-display-3 {
-  background-image: url("/img/목업/목업-윈디-폰-2.png");
+  background-image: url("./img/목업/목업-윈디-폰-2.png");
 }
 
 .windie-display-4 {
-  background-image: url("/img/목업/목업-윈디-폰-가로형-1.png");
+  background-image: url("./img/목업/목업-윈디-폰-가로형-1.png");
 }
 
 .windie-display-5 {
-  background-image: url("/img/목업/목업-윈디-폰-가로형-2.png");
+  background-image: url("./img/목업/목업-윈디-폰-가로형-2.png");
 }
