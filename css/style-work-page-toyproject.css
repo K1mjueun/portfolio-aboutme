@@ -22,7 +22,7 @@
 .arrow-sticker {
   width: 150px;
   height: 60px;
-  background-image: url('./img/뒤로가기-화살표.png');
+  background-image: url('img/뒤로가기-화살표.png');
   transform: rotate(3deg);
   
   left:1%;
@@ -41,7 +41,7 @@
 .toyproject-memo-2 {
   width: 100px;
   height: 150px;
-  background-image: url('./img/토이프로젝트-폴라로이드-그림자제거.png');
+  background-image: url('img/토이프로젝트-폴라로이드-그림자제거.png');
   transform: rotate(2deg);
   
   top:-5%;
@@ -91,7 +91,7 @@
 .contact-stamp-3 {
   width: 150px;
   height: 150px;
-  background-image: url('./img/contact-stamp.png');
+  background-image: url('img/contact-stamp.png');
   background-size: cover;
   position: absolute;
 
@@ -105,7 +105,7 @@
 .wp-toyproject-sticker-1 {
   width: 150px;
   height: 150px;
-  background-image: url("./img/스티커/만두-스티커-원형-메롱.png");
+  background-image: url("img/스티커/만두-스티커-원형-메롱.png");
 
   left: 8%;
   top: 30%;
@@ -115,7 +115,7 @@
 .wp-toyproject-sticker-2 {
   width: 90px;
   height: 90px;
-  background-image: url("./img/스티커/만두-스티커-기본.png");
+  background-image: url("img/스티커/만두-스티커-기본.png");
 
   left: 13%;
   top: 40%;
@@ -125,7 +125,7 @@
 .wp-toyproject-sticker-3 {
   width: 70px;
   height: 60px;
-  background-image: url("./img/스티커/하트-스티커-3.png");
+  background-image: url("img/스티커/하트-스티커-3.png");
 
   left: 17.5%;
   bottom:27%;
@@ -147,9 +147,9 @@
 }
 
 .toyproject-display-1 {
-  background-image: url('./img/목업/목업-토이프로젝트-메인.png');
+  background-image: url('img/목업/목업-토이프로젝트-메인.png');
 }
 
 .toyproject-display-2 {
-  background-image: url('./img/목업/목업-토이프로젝트-PC-1.png');
+  background-image: url('img/목업/목업-토이프로젝트-PC-1.png');
 }

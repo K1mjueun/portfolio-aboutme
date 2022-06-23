@@ -16,7 +16,7 @@
 #start-2 > .my-photo {
   width: 320px;
   height: 400px;
-  background-image: url('./img/김주은-누끼.png');
+  background-image: url('img/김주은-누끼.png');
   background-size: cover;
   position: absolute;
   left: 40%;
@@ -29,7 +29,7 @@
 #start-2 > .start-speech-bubble {
 width: 160px;
 height: 160px;
-background-image: url('./img/speech-bubble.png');
+background-image: url('img/speech-bubble.png');
 background-size: cover;
 position: absolute;
 top: 18%;
@@ -91,7 +91,7 @@ display: none;
 #start-2 > .arrow-1 {
 width: 27px;
 height: 50px;
-background-image: url("./img/arrow-1.png");
+background-image: url("img/arrow-1.png");
 background-size: cover;
 position: absolute;
 
