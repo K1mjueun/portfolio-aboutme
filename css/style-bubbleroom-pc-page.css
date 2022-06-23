@@ -15,7 +15,7 @@
 #bubbleroom-pc-page > #note-board >.pc-arrow-sticker {
   width: 150px;
   height: 60px;
-  background-image: url('img/뒤로가기-화살표.png');
+  background-image: url('./img/뒤로가기-화살표.png');
   background-size: cover;
   transform: rotate(6deg);
   

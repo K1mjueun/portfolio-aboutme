@@ -11,7 +11,7 @@
 #toyproject-process-page > #toyproject-process-page-1 > #note-board >.process-arrow-sticker {
   width: 150px;
   height: 60px;
-  background-image: url('img/뒤로가기-화살표.png');
+  background-image: url('./img/뒤로가기-화살표.png');
   background-size: cover;
   transform: rotate(6deg);
   
@@ -77,19 +77,19 @@
 }
 
 .toyproject-process-img-1 {
-  background-image: url("img/기획 과정 페이지 소스/토이-기획-소스-1.png");
+  background-image: url("./img/기획 과정 페이지 소스/토이-기획-소스-1.png");
 }
 .toyproject-process-img-2 {
-  background-image: url("img/기획 과정 페이지 소스/토이-기획-소스-2.png");
+  background-image: url("./img/기획 과정 페이지 소스/토이-기획-소스-2.png");
 }
 .toyproject-process-img-3 {
-  background-image: url("img/기획 과정 페이지 소스/토이-기획-소스-3.png");
+  background-image: url("./img/기획 과정 페이지 소스/토이-기획-소스-3.png");
 }
 .toyproject-process-img-4 {
-  background-image: url("img/기획 과정 페이지 소스/토이-기획-소스-4.png");
+  background-image: url("./img/기획 과정 페이지 소스/토이-기획-소스-4.png");
 }
 .toyproject-process-img-5 {
-  background-image: url("img/기획 과정 페이지 소스/토이-기획-소스-5.png");
+  background-image: url("./img/기획 과정 페이지 소스/토이-기획-소스-5.png");
 }
 
 .toyproject-process-img-1 > section, .toyproject-process-img-2 > section, .toyproject-process-img-3 > section, .toyproject-process-img-4 > section, .toyproject-process-img-5 > section {
@@ -103,15 +103,15 @@
 }
 
 .toyproject-process-img-1 > section {
-  background-image: url("toy-project/img/만두\ 공놀이1.jpg");
+  background-image: url("./toy-project/img/만두\ 공놀이1.jpg");
 }
 
 .toyproject-process-img-2 > section {
-  background-image: url("toy-project/img/토이프로젝트-일러스트.png");
+  background-image: url("./toy-project/img/토이프로젝트-일러스트.png");
 }
 
 .toyproject-process-img-5 > section {
-  background-image: url("img/목업/목업-토이프로젝트-PC-1.png");
+  background-image: url("./img/목업/목업-토이프로젝트-PC-1.png");
 }
 
 .toyproject-process-info-1, .toyproject-process-info-2, .toyproject-process-info-3, .toyproject-process-info-4, .toyproject-process-info-5 {
